@@ -1,0 +1,280 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, arial, sans-serif;
+	font-size: 16px;
+	color: #6bd3fa;
+	text-align: center;
+}
+
+p {
+	color: darkgrey;
+}
+
+h1 {
+	color: steelgrey;
+	font-size: 22px;
+}
+
+h2 {
+	color: darkgrey;
+	font-size: 18px;
+	font-style: strong;
+}
+
+
+
+.inside {
+    width: 69%;
+    margin: 0 auto;
+}
+
+#nav a {
+	color: #6bd3fa;
+	text-decoration: none;
+	line-height: 50px;
+	margin-top: 10px;
+}
+
+#nav ul li a:hover {
+	background: #6bd3fa;
+	color: white;
+}
+
+
+#nav ul{
+	display: flex;
+}
+
+#nav ul li a{
+	width: 100%;
+	padding: 0 auto;
+	padding: 10px 10px;
+    border-radius: 25px;
+}
+
+#header img {
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+#buttons {
+	display: flex;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#buttons img {
+	padding: 10px;
+}
+
+#contact {
+	color: darkgrey;
+	display: flex;
+}
+#contact {
+	display: flex;
+
+}
+
+#gmap {
+	width: 100%;
+	min-height: 300px;
+	margin-top: 30px;
+}
+
+#customer {
+	display: flex;
+}
+
+#customer h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: darkgrey;
+	font-size: 26px;
+}
+
+#customer h3 {
+	color: grey;
+}
+
+#customer p {
+	color: #6bd3fa;
+	font-style: italics;
+}
+
+#customer .person {
+	width: 30%;
+	display: block;
+	padding: 10px;
+	float: right;
+	line-height: 30px;
+}
+
+#book {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#footer a {
+	color: #6bd3fa;
+	text-decoration: none;
+	line-height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+}
+
+#footer ul li a:hover {
+	background: #6bd3fa;
+	color: white;
+}
+
+#footer ul{
+	display: flex;
+}
+
+#footer ul li a{
+	width: 100%;
+	padding: 0 auto;
+	padding: 10px 10px;
+    border-radius: 25px;
+}
+	
+#contact-header {
+	background-image: url(../images/bg-sea.png);
+	background-position: center;
+	width: 100%;
+	background-repeat: no-repeat;
+	min-height: 432px;
+	color: white;
+}
+	
+#contact-header h1 {
+	position: relative;
+	font-size: 80px;
+	top: 150px;
+}
+	
+#opening-hours {
+	line-height: 30px;
+	color: darkgrey;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-left: 25px;
+	display: flex;
+}
+
+#opening-hours div {
+	display: block;
+}
+
+#opening-hours h1 {
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: Dimgrey;
+}
+	
+#opening-hours table {
+	border: none;
+	background-color: white;
+	line-height: 50px;
+	text-align: left;
+	font-size: 18px;
+	float: left;
+	padding: 5%;
+	
+}
+
+#opening-hours tr {
+	line-height: 40px;
+	margin: 5%;
+	padding: 10%;
+
+}
+
+#opening-hours td {
+	padding: 0 auto;
+  
+}
+.address {
+	float: right;
+}
+
+#menu-header {
+	background-image: url(../images/bg-sea.png);
+	background-position: center;
+	width: 100%;
+	background-repeat: no-repeat;
+	min-height: 432px;
+	color: white;
+}
+#menu-header h1{
+	position: relative;
+	font-size: 70px;
+	top: 170px;
+	left: 80px;
+}
+
+#menus {
+	width: 100%;
+}
+#menus img {
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#about-header {
+	
+	background-image: url(../images/bg-sea.png);
+	background-position: center;
+	width: 100%;
+	background-repeat: no-repeat;
+	min-height: 432px;
+	color: white;
+}
+
+#about-header h1 {
+	position: relative;
+	font-size: 70px;
+	top: 150px;
+	right: 10px;
+}
+
+#about p {
+	line-height: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#gallery h1 {
+	font-size: 24px;
+	color: darkgrey;
+	padding-top: 20px;
+	line-height: 40px;
+	padding-bottom: 20px;
+}
+
+#book-header h1{
+	position: relative;
+	font-size: 70px;
+	top: 150px;
+	right: 90px;
+}
+
+#book-header {
+	
+	background-image: url(../images/bg-sea.png);
+	background-position: center;
+	width: 100%;
+	background-repeat: no-repeat;
+	min-height: 432px;
+	color: white;
+}
+
